@@ -3921,9 +3921,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 break
 case 'command': case 'allmenu': case 'listmenu': {
 var butonnya =
-[{ urlButton: { displayText: 'Group Official', url: 'https://chat.whatsapp.com/Hypz6V5T0rq60HS7ZnW0KN'} }, 
-{ quickReplyButton: { displayText: 'Owner', id: 'owner', } }, 
-{ quickReplyButton: { displayText: 'Sewa Bot', id: 'sewabot', } }]
 /*const templateMessage = {
 video:fs.readFileSync("./media/allmenu.mp4"),
 gifPlayback:true,
