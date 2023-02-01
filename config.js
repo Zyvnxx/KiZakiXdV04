@@ -10,17 +10,17 @@ global.autoReadAll = true
 //Silahkan sesuaikan sendiri ya
 
 // Ganti Sewajarnya
-global.owner = ['628560797846']
+global.owner = ['62856079707846']
 global.pengguna = '𝐙𝐘𝐍𝐗'
 global.premium = []
 global.author = '𝐙𝐘𝐍𝐗'
-global.pemilik = ['628560797846'] 
-global.ownernomer = '628560797846'
+global.pemilik = ['62856079707846'] 
+global.ownernomer = '62856079707846'
 global.ownername = '𝐙𝐘𝐍𝐗'
 global.botname = '𝐙𝐗 - 𝐁𝐎𝐓'
 global.tengah = "									"
 global.Prefix = 'Multi Prefix'
-global.meki = '628560797846'
+global.meki = '62856079707846'
 global.footer = '𝐙𝐗 - 𝐁𝐎𝐓'
 //Isi Sesuai Namalu Buat Tambah Tqtq
 global.namalu = '𝐙𝐘𝐍𝐗' //Ubah nama kalian buat nambahin di tqtq bot
