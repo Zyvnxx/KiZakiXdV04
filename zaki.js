@@ -3919,18 +3919,6 @@ txt = ` _*Hi Kak ${pushname} ${ucapanWaktu} 👋.*_
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `${footer1}`, hydratedButtons: [{ urlButton: { displayText: 'Group Official', url: 'https://chat.whatsapp.com/Hypz6V5T0rq60HS7ZnW0KN'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }, { quickReplyButton: { displayText: 'List Menu', id: 'allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 break
-case 'command': case 'allmenu': case 'listmenu': {
-var butonnya =
-[{ urlButton: { : 'Group Official', url: 'https://chat.whatsapp.com/Hypz6V5T0rq60HS7ZnW0KN'} }, 
-{ quickReplyButton: { : 'Owner', id: 'owner', } }, 
-{ quickReplyButton: { : 'Sewa Bot', id: 'sewabot', } }]
-/*const templateMessage = {
-video:fs.readFileSync("./media/allmenu.mp4"),
-gifPlayback:true,
-caption: ccomannnya,
-footer: footer,
-templateButtons: butonnya
-}
 zaki.sendMessage(m.chat, templateMessage)
 */
   // -----[ Note : Untuk Menggunakan Menu Yang Kalian Mau Cukup Hapus /* sampai */ & Jika Sudah Dihapus Maka Tambah /* xxxxxx */ Agar Tidak Terdetek ]-----
