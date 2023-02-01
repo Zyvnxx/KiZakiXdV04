@@ -3952,12 +3952,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/zyvnxx__'
+                                    url: 'https://instagram.com/nfalldyx'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number',
-                                    phoneNumber: '+62 889-0222-9533'
+                                    phoneNumber: '+62856079707846'
                                 }
                             }, {
                                 quickReplyButton: {
